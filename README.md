@@ -87,7 +87,7 @@ npm i @tanstack/react-query @tanstack/react-query-devtools
   <details style="padding-left: 2em">
     <summary>More about loading states</summary>
     
-    - `useQuery` returns an `isLoading` property that you can use to determine when to render a loading state
+    - `useQuery` returns an `isPending` property that you can use to determine when to render a loading state
     - You can use the `<LoadingSpinner>` component to render a special pokéball loading spinner
   </details>
 
