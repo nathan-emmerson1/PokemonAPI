@@ -2,12 +2,12 @@
 
 ## Setup
 
-### 0. Cloning and Installation
+### Cloning and Installation
 - [ ] Clone this repo, navigate to it, install packages, and start the server with `npm run dev`
 
 ---
 
-### 1. Looking Around
+### Looking Around
 
 `client/apis/pokemon.ts` and `server/routes/pokemon.ts` are written for you! Take a look at them and then try them out in Insomnia (or Thunder Client) to see what they return. The types are also written for you in `models/pokemon.ts`, they only contain the fields we are interested in.
 
@@ -19,7 +19,7 @@ Visit [localhost:5173/](http://localhost:5173/) and [localhost:5173/pokemon/bulb
 
 ---
 
-### 2. Setting up React Query
+### Setting up React Query
 
 - [ ] Install React Query and React Query Devtools
 
@@ -33,7 +33,7 @@ Visit [localhost:5173/](http://localhost:5173/) and [localhost:5173/pokemon/bulb
 
 ---
 
-## Challenges
+## Workshop Time!
 
 ### 1. Fetching a List of Pokémon from the API
 
