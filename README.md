@@ -135,5 +135,11 @@ npm i @tanstack/react-query @tanstack/react-query-devtools
 
 </details>
 
+
+## Submitting this Challenge for Marking
+
+This challenge can be used for the following trello assessment(s): 
+- **WD02: Build a Javascript application that consumes a restful JSON API**
+
 ---
 [Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=query-em-all)
