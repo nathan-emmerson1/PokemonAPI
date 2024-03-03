@@ -155,6 +155,8 @@ npm i @tanstack/react-query @tanstack/react-query-devtools
     - After adding more data to the Pokémon detail, stop and find another pair who has reached the same stage. Share your solutions and discuss any challenges faced.
 </details>
 
+---
+
 ### 6. See Pokémon by generation
 
 - [ ] As a user, on the homepage (`/`) I want to see a list of all the generations, so that I can click on one, go to `/generations/:generationId` and see the list of Pokémon for that generation
