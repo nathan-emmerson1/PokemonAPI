@@ -4,11 +4,14 @@ import type { Pokemon, PokemonGeneration } from '../../models/pokemon.ts'
 export async function fetchPokemonGeneration(
   generation: number
 ): Promise<PokemonGeneration> {
-  return request
-    .get(`/api/v1/pokemon/generation/${generation}`)
-    .then((res) => res.body.generation)
+  const res = await request.get(
+    `https://pokeapi.co/api/v2/generation/${generation}`
+  )
+
+  return res.body.generation
 }
 
 export async function fetchPokemonByName(name: string): Promise<Pokemon> {
-  return request.get(`/api/v1/pokemon/${name}`).then((res) => res.body.pokemon)
+  const res = await request.get(`https://pokeapi.co/api/v2/pokemon/${name}`)
+  return res.body.pokemon
 }
