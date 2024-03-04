@@ -32,7 +32,7 @@ Visit [localhost:5173/](http://localhost:5173/) and [localhost:5173/pokemon/bulb
 - [ ] Install React Query and React Query Devtools
 
 ```sh
-npm i @tanstack/react-query @tanstack/react-query-devtools
+npm i -D @tanstack/react-query @tanstack/react-query-devtools
 ```
 
 - [ ] In `client/index.tsx` import `{ QueryClient, QueryClientProvider }` from `@tanstack/react-query`
