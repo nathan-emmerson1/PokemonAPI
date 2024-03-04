@@ -20,7 +20,7 @@ Practice writing queries with React Query and displaying loading states, error s
 
 ### 1. Looking around
 
-`client/apis/pokemon.ts` and `server/routes/pokemon.ts` are written for you! Take a look at them and then try them out in Insomnia (or Thunder Client) to see what they return. The types are also written for you in `models/pokemon.ts`, they only contain the fields we are interested in.
+`client/apis/pokemon.ts` is written for you! Take a look at them and then try them out in Insomnia (or Thunder Client) to see what they return. The types are also written for you in `models/pokemon.ts`, they only contain the fields we are interested in.
 
 `<App>` is rendering two client-side routes, `/` and `/pokemon/:name`:
 
