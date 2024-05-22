@@ -74,6 +74,12 @@ export default function PokemonDetail() {
           <p key={slot}>{ability.name}</p>
         ))}
       </section>
+      <section>
+        <h2>Moves: </h2>
+        {pokemon.moves.map(({ move }) => (
+          <p key={move.name}>{move.name}</p>
+        ))}
+      </section>
     </div>
   )
 }
