@@ -19,16 +19,53 @@ export interface ApiLink {
   url: string
 }
 
+export interface GenerationList {
+  count: number
+  next: string | null
+  previous: string | null
+  results: ApiLink[]
+}
+
+export interface HeldItem {
+  item: Item
+  version_details: VersionDetail[]
+}
+
+export interface Item {
+  name: string
+  url: string
+}
+
+export interface Stat {
+  base_stat: number
+  effort: number
+  stat: StatClass
+}
+
+export interface StatClass {
+  name: string
+  url: string
+}
+
+export interface VersionDetail {
+  rarity: number
+  version: Item
+}
+
 export interface Pokemon {
   name: string
   id: number
+  cries: Record<string, string>
   sprites: {
     front_default: string
     back_default: string
+    front_shiny?: string
   }
   abilities: Array<Ability>
   moves: Array<Move>
   types: Array<TypeInfo>
+  held_items: HeldItem[]
+  stats: Stat[]
 }
 
 interface Ability {
