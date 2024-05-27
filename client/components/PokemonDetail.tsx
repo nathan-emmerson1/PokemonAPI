@@ -16,12 +16,12 @@ export default function PokemonDetail() {
     isError,
   } = useQuery({
     queryKey: ['pokemon'],
-    queryFn: () => fetchPokemonByName(name),
+    queryFn: () => fetchPokemonByName(name)
   })
 
   if (isPending) return <LoadingSpinner />
 
-  if (isError) throw new Error
+  if (isError) return <p>Oppsie what is that</p>
 
   return (
     <div>
