@@ -2,7 +2,6 @@ import { useParams } from 'react-router-dom'
 import { fetchPokemonByName } from '../apis/pokemon.ts'
 import { useQuery } from '@tanstack/react-query'
 import LoadingSpinner from './LoadingSpinner.tsx'
-import { query } from 'express'
 
 export default function PokemonDetail() {
   const { name } = useParams()
